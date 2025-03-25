@@ -1,6 +1,7 @@
 import React from "react";
 import bgImage from "../assets/home/background-home-desktop.jpg";
 import Nav from "./Nav";
+import Hero from "./Hero";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       <Nav />
+      <Hero />
     </div>
   );
 };
