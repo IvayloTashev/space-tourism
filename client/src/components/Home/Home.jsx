@@ -1,7 +1,7 @@
 import React from "react";
-import bgImage from "../assets/home/background-home-desktop.jpg";
-import Nav from "./Nav";
-import Hero from "./Hero";
+import bgImage from "../../assets/home/background-home-desktop.jpg";
+import Nav from "../Nav";
+import HomeHero from "./HomeHero";
 
 const Home = () => {
   return (
@@ -10,7 +10,7 @@ const Home = () => {
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       <Nav />
-      <Hero />
+      <HomeHero />
     </div>
   );
 };

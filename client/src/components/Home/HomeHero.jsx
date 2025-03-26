@@ -1,6 +1,6 @@
 import React from "react";
 
-const Hero = () => {
+const HomeHero = () => {
   return (
     <div className="mb-[128px] mt-[300px] mx-[165px] flex items-center">
       <div className="basis-1/2 flex flex-col gap-[24px]">
@@ -26,4 +26,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HomeHero;
