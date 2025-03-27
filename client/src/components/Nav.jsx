@@ -4,8 +4,6 @@ import { navMenuData } from "../constants/constants.js";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
-  console.log(navMenuData);
-
   return (
     <div className="h-[136px] w-full flex flex-col justify-end">
       <nav className="flex justify-between items-center h-[96px]">
@@ -17,7 +15,7 @@ const Nav = () => {
           {navMenuData.map((item) => (
             <li
               key={item.id}
-              className="text-white h-full border-solid border-b-3 border-transparent hover:border-white/80"
+              className="text-white h-full border-solid border-b-3 border-transparent hover:border-white/60"
             >
               <Link
                 to={`/${item.title.toLocaleLowerCase()}`}
