@@ -35,19 +35,19 @@ const DestinationHero = () => {
 
           <section className="mb-[40px]">
             <h2 className="text-[96px]">{destinations[planet].name.toUpperCase()}</h2>
-            <p className="text-[20px]">{destinations[planet].description}</p>
+            <p className="text-[20px] text-white/70">{destinations[planet].description}</p>
           </section>
 
           <div className="bg-white/20 block h-[2px] w-full"></div>
 
           <section className="flex gap-[24px] mt-[40px]">
-            <div className="basis-1/2 flex flex-col gap-2">
-              <p>AVG. DISTANCE</p>
-              <p>{destinations[planet].distance}</p>
+            <div className="basis-1/2 flex flex-col gap-5">
+              <p className="text-white/70">AVG. DISTANCE</p>
+              <p className="text-[30px] leading-1">{destinations[planet].distance}</p>
             </div>
-            <div className="basis-1/2 flex flex-col gap-2">
-              <p>Est. travel time</p>
-              <p>{destinations[planet].travel}</p>
+            <div className="basis-1/2 flex flex-col gap-5">
+              <p className="text-white/70">Est. travel time</p>
+              <p className="text-[30px] leading-1">{destinations[planet].travel}</p>
             </div>
           </section>
         </div>
