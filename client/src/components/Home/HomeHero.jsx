@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HomeHero = () => {
   return (
@@ -14,12 +15,9 @@ const HomeHero = () => {
       </div>
       <div className="flex justify-end basis-1/2 ">
         <div className="hover:text-black/50">
-          <a
-            href="#EXPLORE"
-            className="h-[250px] w-[250px] flex items-center justify-center bg-white rounded-full text-[32px] font-[100]  "
-          >
+          <Link to={'/destination'} className="h-[250px] w-[250px] flex items-center justify-center bg-white rounded-full text-[32px] font-[100]">
             EXPLORE
-          </a>
+          </Link>
         </div>
       </div>
     </div>

@@ -7,7 +7,7 @@ const CrewHero = () => {
   return (
     <div className="text-white my-[48px] mx-[150px] flex flex-col gap-[24px]">
       <header className="text-[28px]">
-        <span className="text-gray-500 mr-2 !font-bellefair">02</span>MEET YOUR
+        <span className="text-gray-500 mr-2">02</span>MEET YOUR
         CREW
       </header>
       <div className="flex gap-[32px]">
