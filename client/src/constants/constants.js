@@ -2,33 +2,38 @@ import moonImg from '../assets/destination/image-moon.png';
 import marsImg from '../assets/destination/image-mars.png';
 import europaImg from '../assets/destination/image-europa.png';
 import titanImg from '../assets/destination/image-titan.png';
+
 import hurleyImg from '../assets/crew/image-douglas-hurley.png'
 import shuttleworthImg from '../assets/crew/image-mark-shuttleworth.png'
 import gloverImg from '../assets/crew/image-victor-glover.png'
 import ansariImg from '../assets/crew/image-anousheh-ansari.png'
 
-export const navMenuData = [
-    {
+import vehicleImg from '../assets/technology/image-launch-vehicle-portrait.jpg'
+import spaceportImg from '../assets/technology/image-spaceport-portrait.jpg'
+import capsuleImg from '../assets/technology/image-space-capsule-portrait.jpg'
+
+export const navMenuData = {
+    "00": {
         id: "0",
         number: '00',
         title: "HOME",
     },
-    {
+    "01": {
         id: "1",
         number: '01',
         title: "DESTINATION",
     },
-    {
+    "02": {
         id: "2",
         number: '02',
         title: "CREW",
     },
-    {
+    "03": {
         id: "3",
         number: '03',
         title: "TECHNOLOGY",
     },
-]
+}
 
 export const destinations = {
     moon: {
@@ -86,5 +91,23 @@ export const crew = {
         "image": ansariImg,
         "role": "Flight Engineer",
         "bio": "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space."
+    }
+}
+
+export const technology = {
+    vehicle: {
+        "name": "Launch vehicle",
+        "image": vehicleImg,
+        "description": "A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!"
+    },
+    spaceport: {
+        "name": "Spaceport",
+        "image": spaceportImg,
+        "description": "A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch."
+    },
+    capsule: {
+        "name": "Space capsule",
+        "image": capsuleImg,
+        "description": "A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained."
     }
 }
