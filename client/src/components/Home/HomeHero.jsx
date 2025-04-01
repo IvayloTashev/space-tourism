@@ -15,9 +15,17 @@ const HomeHero = () => {
       </div>
       <div className="flex justify-end basis-1/2 ">
         <div className="hover:text-black/50">
-          <Link to={'/destination'} className="h-[250px] w-[250px] flex items-center justify-center bg-white rounded-full text-[32px] font-[100]">
+        <div className="relative group">
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="h-[250px] w-[250px] bg-white opacity-0 scale-100 rounded-full transition-all duration-200 ease-in group-hover:opacity-20 group-hover:scale-150"></div>
+          </div>
+          <Link
+            to={"/destination"}
+            className="relative h-[250px] w-[250px] flex items-center justify-center bg-white rounded-full text-[32px] font-[100] z-10"
+          >
             EXPLORE
           </Link>
+        </div>
         </div>
       </div>
     </div>
