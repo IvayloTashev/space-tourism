@@ -6,7 +6,7 @@ import DestinationHero from './DestinationHero'
 const Destination = () => {
   return (
     <div
-      className="min-h-[1024px] min-w-[1440px] bg-no-repeat bg-cover"
+      className="bg-no-repeat h-screen bg-cover bg-center"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       <Nav />

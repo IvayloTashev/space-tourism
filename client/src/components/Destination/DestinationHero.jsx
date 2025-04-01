@@ -5,7 +5,7 @@ const DestinationHero = () => {
   const [planet, setPlanet] = useState("moon");
 
   return (
-    <div className="text-white my-[48px] mx-[150px] flex flex-col gap-[24px]">
+    <div className="text-white mt-[48px] mx-[150px] flex flex-col">
       <header className="text-[28px]">
         <span className="text-gray-500 mr-2 !font-bellefair">01</span>PICK YOUR DESTINATION
       </header>

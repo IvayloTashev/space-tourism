@@ -1,13 +1,14 @@
 import React from "react";
-import bgImage from "../../assets/home/background-home-desktop.jpg";
 import Nav from "../Nav";
 import HomeHero from "./HomeHero";
 
 const Home = () => {
   return (
     <div
-      className="min-h-[1024px] min-w-[1440px] bg-no-repeat bg-cover"
-      style={{ backgroundImage: `url(${bgImage})` }}
+      className="bg-no-repeat h-screen bg-cover bg-center
+        bg-[url('/assets/home/background-home-mobile.jpg')] 
+        sm:bg-[url('/assets/home/background-home-tablet.jpg')] 
+        xl:bg-[url('/assets/home/background-home-desktop.jpg')]"
     >
       <Nav />
       <HomeHero />

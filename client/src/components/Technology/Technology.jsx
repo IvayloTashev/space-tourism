@@ -6,7 +6,7 @@ import bgImage from '../../assets/technology/background-technology-desktop.jpg'
 const Technology = () => {
   return (
     <div
-    className="min-h-[1024px] min-w-[1440px] bg-no-repeat bg-cover"
+    className="bg-no-repeat h-screen bg-cover bg-center"
     style={{ backgroundImage: `url(${bgImage})` }}
   >
     <Nav />
