@@ -13,8 +13,8 @@ const Nav = () => {
             <img src={logo} alt="Logo" />
           </Link>
         </div>
-        <div className="bg-white/20 block h-[2px] w-[650px] absolute left-[150px] z-2"></div>
-        <ul className="flex items-center gap-[30px] h-full backdrop-blur-2xl pr-[50px] pl-[150px] bg-white/5">
+        <div className="bg-white/20 block h-[2px] w-[650px] absolute left-[150px] z-2 2xl:w-[1000px]"></div>
+        <ul className="flex items-center gap-[30px] h-full backdrop-blur-2xl pr-[50px] pl-[150px] bg-white/5 2xl:gap-[50px] 2xl:pr-[150px]">
           {Object.values(navMenuData).map((item, index) => {
             const isActive =
               location.pathname === `/${item.title.toLowerCase()}` ||

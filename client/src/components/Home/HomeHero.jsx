@@ -13,7 +13,7 @@ const HomeHero = () => {
           and relax because we'll give you a truly out of this world experience!
         </p>
       </div>
-      <div className="flex justify-end basis-1/2 ">
+      <div className="flex justify-end basis-1/2 2xl:justify-center">
         <div className="hover:text-black/50">
         <div className="relative group">
           <div className="absolute inset-0 flex items-center justify-center">
