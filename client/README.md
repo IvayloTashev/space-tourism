@@ -1,12 +1,31 @@
-# React + Vite
+# 🎵 Music App  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple space tourism app.
 
-Currently, two official plugins are available:
+## 🛠️ Technologies Used  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**
+- **Tailwind CSS**
+- **Netlify**
 
-## Expanding the ESLint configuration
+## 🌐 Live Demo 
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 📸 Screenshots
+
+1. Home
+   
+![image](https://github.com/user-attachments/assets/99409346-be9d-471e-9467-e52dcfe13af2)
+
+2. Destination
+
+![image](https://github.com/user-attachments/assets/ea4d835a-5f9e-4156-944f-c3f8a92daa0a)
+
+3. Crew
+
+![image](https://github.com/user-attachments/assets/5085c9d2-52f7-4e20-a269-1b306a9acd9a)
+
+4. Technology
+
+![image](https://github.com/user-attachments/assets/661b2401-9434-4453-9115-a212c38f8c42)
+
