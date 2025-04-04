@@ -9,7 +9,7 @@ A simple space tourism app.
 - **Netlify**
 
 ## 🌐 Live Demo 
-
+https://demospacetourism.netlify.app/
 
 ## 📸 Screenshots
 
