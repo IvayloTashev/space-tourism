@@ -1,6 +1,6 @@
-# 🎵 Music App  
+# Space-tourism
 
-A simple space tourism app.
+A visually engaging, UI/UX-focused React application styled with Tailwind CSS. Includes interactive pages for destinations, crew, and technology. Deployed via Netlify.
 
 ## 🛠️ Technologies Used  
 
